@@ -104,4 +104,25 @@
   </div>
 </div>
 </body>
+
+  <script>
+  document.getElementById('adminLoginForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting the default way
+    const userId = document.getElementById('userId').value;
+    const password = document.getElementById('password').value;
+    const emailPattern = /^[a-zA-Z0-9._-]+@gmail\.com$/;
+
+    if (emailPattern.test(userId) && password.length >= 6) {
+      alert('Login successful! Redirecting to the main page...');
+      window.location.href = 'body.html'; // Replace with the actual main page URL
+    } else {
+      if (!emailPattern.test(userId)) {
+        alert('Please enter a valid Gmail address.');
+      } else if (password.length < 6) {
+        alert('Password must be at least 6 characters long.');
+      }
+    }
+  });
+</script>
+  
 </html>
