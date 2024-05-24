@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoGuardian Admin Login</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+  }
+  .left-section {
+    flex: 2;
+    background-color: #003b46; /* Dark teal background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  .right-section {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  .login-logo img {
+    width: 100px; /* Adjust as necessary */
+  }
+  .login-logo h2 {
+    margin: 20px 0;
+  }
+  h3 {
+    color: #003b46; /* Dark teal text for header */
+    margin-bottom: 20px;
+  }
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .input-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  .input-group input:focus {
+    outline: none;
+    border: 2px solid #82b74b; /* Highlight color when input is focused */
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #82b74b; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  button:hover {
+    background-color: #699c60; /* Slightly darker green for hover effect */
+  }
+  .forgot-password {
+    display: block;
+    margin-top: 20px;
+    color: #003b46;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<div class="left-section">
+  <div class="login-logo">
+    <!-- Replace with your actual logo image -->
+    <img src="ecoguardian-logo.png" alt="EcoGuardian Logo">
+    <h2>ADMIN</h2>
+  </div>
+</div>
+<div class="right-section">
+  <div class="login-container">
+    <h3>Login to Continue</h3>
+    <form id="adminLoginForm">
+      <div class="input-group">
+        <label for="userId">Enter your email</label>
+        <input type="text" id="userId" name="userId" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">LOGIN</button>
+      <a href="#" class="forgot-password">Forgot Password?</a>
+    </form>
+  </div>
+</div>
+</body>
+</html>

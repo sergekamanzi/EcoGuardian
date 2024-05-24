@@ -1,0 +1,156 @@
+body{
+    margin:0px;
+    
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(28, 44, 28);
+    align-items: center;
+    justify-content: space-between;
+  
+    
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-left: -700px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: grey;
+}
+.navbar a:hover{
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: solid green;
+}
+
+.navbar1{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: #d1c9c9;
+    cursor: pointer;
+
+}
+.logo{
+    cursor: pointer;
+}
+
+.navbar2{
+    display: flex;
+    align-items: center;
+    gap: 550px;
+    margin-left: 25px;
+    
+}
+
+.main-post{
+    border:1px solid rgb(185, 178, 178);
+    width: 242px;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 55px;
+    
+    
+}
+
+.mini-border1{
+    border:1px solid rgb(187, 181, 181);
+    width: 170px;
+    height: 50px;
+   /* padding: 20px;*/
+   margin-top: 20px;
+   margin-left: 18px;
+   border-radius: 4px;
+    
+}
+.main-post .mini-border1{
+    width: 202px;
+    height: 100px;
+    border: 1px solid rgb(199, 191, 191);
+}
+
+.mini-border2{
+    border:1px solid rgb(182, 174, 174);
+    width: 242px;
+    height: 27px;
+    border-radius: 4px;
+    margin-left: 14px;
+    
+}
+.main-post .mini-border2{
+    width: 40px;
+    height: 50pxpx;
+    border: 1px solid rgb(194, 187, 187);
+}
+
+
+.box{
+     display:flex;
+     justify-content: center;
+     padding-left: 55px;
+     margin-top: -33px;
+}
+.post1{
+    display: flex;
+    justify-content: center;
+    padding-right: 355px;
+}
+
+.post2{
+    display: flex;
+    justify-content: center;
+    padding-right: 355px;
+    margin-top: 20px;
+}
+
+.notification{
+    margin-top: -682px;
+    border-left: solid rgb(216, 213, 213) 2px;
+    padding-left: 40px;
+    margin-left: 930px;
+    padding-top: 10px;
+    height: 679px;
+    background-color: #d6d4d4;
+    
+
+}
+
+.notification .not1{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: -30px;
+    padding-right: 50px;
+    
+}
+
+.notification .not2{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: -30px;
+    padding-right: 50px;
+    
+}
+
+.notification .not3{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: -30px;
+    padding-right: 50px;
+    
+}
+
+
+
+
+
+
+
